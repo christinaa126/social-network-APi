@@ -33,6 +33,10 @@ thoughtSchema.virtual("reactionCount").get(function totalReactions() {
   return this.reactions.length;
 });
 
+function formatTime(date) {
+  return date.toLocaleString();
+}
+
 const Thought = model("thought", thoughtSchema);
 
 module.exports = Thought;

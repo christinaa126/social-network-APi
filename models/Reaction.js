@@ -29,4 +29,8 @@ const reactionSchema = new Schema(
   }
 );
 
+function formatTime(date) {
+  return date.toLocaleString();
+}
+
 module.exports = reactionSchema;
