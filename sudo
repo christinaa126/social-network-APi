@@ -1,0 +1,3 @@
+COMMAND    PID                  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+Insomnia 14289 christinachristiansen   70u  IPv4 0x13c9dbbe26823501      0t0  TCP localhost:51682->localhost:redwood-broker (CLOSED)
+node     18568 christinachristiansen   29u  IPv6 0x13c9dbc2f04fbe19      0t0  TCP *:redwood-broker (LISTEN)
